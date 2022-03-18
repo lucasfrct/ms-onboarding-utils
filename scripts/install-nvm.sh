@@ -1,5 +1,8 @@
 sudo apt update 
-sudo apt-get install curl
+sudo apt install npm -f -y
+sudo apt install nodejs -f -y
+sudo apt-get install curl -f -y
+sudo apt update 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 source ~/.profile
